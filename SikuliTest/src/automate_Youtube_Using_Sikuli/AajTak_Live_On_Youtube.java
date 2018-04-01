@@ -24,9 +24,9 @@ public class AajTak_Live_On_Youtube {
 		
 		Screen sc = new Screen();
 		
-		Pattern sbox = new Pattern("E:\\Selenium\\sikuli_img\\searchbox.PNG");
-		Pattern scbtn = new Pattern("E:\\Selenium\\sikuli_img\\searchbtn.PNG");
-		Pattern clk = new Pattern("E:\\Selenium\\sikuli_img\\aajtak.PNG");
+		Pattern sbox = new Pattern("E:\\Selenium\\sikuli_img\\searchbox.PNG");// for searchbox
+		Pattern scbtn = new Pattern("E:\\Selenium\\sikuli_img\\searchbtn.PNG");//for searchbutton
+		Pattern clk = new Pattern("E:\\Selenium\\sikuli_img\\aajtak.PNG");//for element
 		
 		
 		sc.type(sbox, "aaj tak live"); // type in youtube search box
